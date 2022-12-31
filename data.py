@@ -74,7 +74,7 @@ courses = [
     {
         "name": "GIT DESDE CERO",
         "title": "Opciones de git add y git commit",
-        "description": "Git add (archivo -> agrega 1 solo archivo, . -> agrega todos los arhivos de la carpeta), git "
+        "description": "Git add (agrega un archivo o todos los archivos dentro de la carpeta), git "
                        "commit (-m message, -am message, -m head -m body)",
         "url": "https://drive.google.com/file/d/1qbM3j82d906Yc5O-wW3KyVBWpUFbmYrW/view?usp=share_link",
         "module": 2,

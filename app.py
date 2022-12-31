@@ -51,8 +51,8 @@ def courses():
                         (title, url, int(module), int(chapter)))
                         
         course_repetido = cursor.fetchone()
-        print(course_repetido)
-        # verificar si conn hace falta cerrar para la consuilta de repetidp
+        
+        # verificar si conn hace falta cerrar para la consuilta de repetidO
         if course_repetido:
                  
             return jsonify({"message":"Bad request, Course Repeated"}), 400

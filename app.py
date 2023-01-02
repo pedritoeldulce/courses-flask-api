@@ -100,7 +100,7 @@ def get_course(id):
         
         course_updated = cursor.fetchone()
         conn.commit()
-
+ 
         if course_updated:
             return jsonify({"message":"course updated", "course": course_updated}), 200
 
